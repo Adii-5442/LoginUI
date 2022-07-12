@@ -39,12 +39,35 @@ const App = () =>{
         <Image
           source={require('./img/shadow.png')}
           style={{}}/>
+        
         <Image
           source={require('./img/smartphone.png')}
           style={{position:'absolute',backgroundColor:'red',top:30,left:250,borderRadius:5}}/>
+        
         <Image
           source={require('./img/Vector.png')}
           style={{position:'absolute',backgroundColor:'red',top:30,left:250,borderRadius:2}}/>
+        <Image
+          source={require('./img/endbar.png')}
+          style={{position:'absolute',top:30,left:265,backgroundColor:'white'}}/>
+        <Image
+          source={require('./img/secondbar.png')}
+          style={{position:'absolute',top:30,left:282}}/>
+        <Image
+          source={require('./img/endbar.png')}
+          style={{position:'absolute',top:30,left:330}}/>
+        <Image
+          source={require('./img/hori1.png')}
+          style={{position:'absolute',top:110,left:250}}/>
+        <Image
+          source={require('./img/hori2.png')}
+          style={{position:'absolute',top:90,left:250}}/>
+        <Image
+          source={require('./img/hori2.png')}
+          style={{position:'absolute',top:60,left:250}}/>
+        <Image
+          source={require('./img/hori2.png')}
+          style={{position:'absolute',top:170,left:250}}/>
         <Image 
           source={require('./img/car.png')}
           style={{position:'absolute',top:110,left:100}}/>
@@ -82,7 +105,8 @@ const App = () =>{
         <View>
         <TextInput
           placeholder='   Email'
-
+          underlineColorAndroid='transparent'
+          autoCorrect={false}
           style={{
             backgroundColor:"white",
             position:'absolute',
@@ -94,6 +118,8 @@ const App = () =>{
             height:50,
             borderTopLeftRadius:25,
             borderBottomRightRadius:25,
+            borderRadius:25,
+            borderTopRightRadius:25,
           }}
         />
         <TextInput
@@ -109,6 +135,8 @@ const App = () =>{
             height:50,
             borderTopLeftRadius:25,
             borderBottomRightRadius:25,
+            borderRadius:25,
+            borderTopRightRadius:25,
           }}
         />
         <View style={{position:'absolute'}}>
